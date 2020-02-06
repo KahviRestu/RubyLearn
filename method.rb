@@ -38,7 +38,7 @@ kirim(nama:'restu',email: 'restukahfi89@gmail.com')
 
 # Variable sebagai method || Proc = procedur
 cetak = Proc.new {
-    puts 'Cetak kata'
+    puts 'Ini merubah variable menjadi method dengan Proc.new'
 }
 cetak.call()
 
