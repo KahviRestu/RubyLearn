@@ -20,4 +20,25 @@ puts hash[:nilai]
 hash[:nilai] = 100
 hash[:salary] = 120
 puts hash
+puts '============================================================'
+
+# Menambah dan mneghapus element dalam hash
+new_hash = Hash.new
+new_hash[:nama] = 'Restu'
+puts new_hash
+new_hash['kelas'] = 'A-1'
+puts new_hash
+puts '============================================================'
+
+# Looping in Hash
+nash = {nama: 'ide', kelas: 'A1' , tipe: 'Normal'}
+nash.each do |element , value|
+    puts "#{element} ==> #{value}"
+end
+
+nash.each_key do |key|
+    puts "ambil #{key}"
+end
+
+
 

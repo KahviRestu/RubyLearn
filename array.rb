@@ -98,3 +98,29 @@ end
 # split symbol
 new_arr = %w(satu dua tiga empat lima)
 puts new_arr
+
+# Acak array dengan shuffle
+arr = [1,2,3,4,5]
+puts "#{arr.shuffle!}"
+puts "#{arr}"
+puts '============================='
+
+#looping array dengan while
+total = 0
+while total < arr.length do
+    puts arr[total]
+    total += 1
+end
+#  Filterasi array sederhana
+array = [60,90,60,20,200]
+arrayBaru = []
+array.each do |item|
+    if item >= 70
+        arrayBaru << item
+    end
+end
+puts "#{arrayBaru}"
+
+# One line select
+puts "#{array.select {|item| item >= 60}}"
+

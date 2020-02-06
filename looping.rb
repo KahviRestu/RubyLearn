@@ -27,3 +27,18 @@ end
 8.downto(3) do |x|
     puts "Descending #{x}"
 end
+
+total = 0
+while total < 5 do
+    puts "total = #{total}"
+    total += 1
+end
+
+arr2 = [1,2,3,4,5]
+for item in arr2 do
+    puts item
+end
+
+arr2.map do |item|
+    puts item
+end
