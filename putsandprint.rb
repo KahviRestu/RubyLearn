@@ -12,7 +12,7 @@ puts " Pengurangan #{aji - tatang}"
 puts " Perkalian #{aji * tatang}"
 puts " Pembagian #{aji / tatang} \n\n"
 
-# Untuk mengecek class di ruby set.classp
+# Untuk mengecek tipedata di ruby set.classp
 puts aji.class
 puts 2.class
 puts [1,2,3,4].class

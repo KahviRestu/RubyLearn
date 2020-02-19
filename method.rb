@@ -9,7 +9,6 @@ def hai
       return 'Hello There'
 end
 puts hai
-
 # Def return with manipulation
 puts hai.reverse 
 
