@@ -1,7 +1,7 @@
 # Array of object variable with hash
 
 # Hash pertama
-hash = {'satu' => 1, 'dua' => 2 , 'tiga' => 'selamat'}
+hash = {'satu' => 1, 'dua' => 2 , s'tiga' => 'selamat'}
 puts hash['tiga']
 # Hash kedua
 hash = {:satu => 'Katakan', :dua => 'Salah', :tiga => 'Benar'}

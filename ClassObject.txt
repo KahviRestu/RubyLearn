@@ -1,0 +1,10 @@
+Local variable (a-z or _)
+Instance variable(@)
+Class variable(@@)
+Global Varibable($)
+
+Instance Varibable atau variable adalah variabel yang dapat diakses oleh berbagai method di dalam class yang sama
+
+Class variable variable class adalah variable yang di akses oleh berbagai object yg di initansi kan di class yang sama
+
+Global variable adalah yang di akses oleh seluruh object dan seluruh class

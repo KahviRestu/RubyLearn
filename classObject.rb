@@ -1,4 +1,5 @@
-# Object Oriented Programing - Class(Normal funtion)
+# ================= Object Oriented Programing - Class(Normal funtion) ========================
+
 # class Calculaotor
 #     def penjumlahan (a,b)
 #         a + b
@@ -16,13 +17,13 @@
 # hasil_pengurangan = calc.pengurangan(10)
 # puts hasil_pengurangan
 
-# # Contructor
+#  Contructor
 
 # class CalculatorKool
 #     def initialize(a,b)
 #         @parameter_a = a
 #         @parameter_b = b
-#         @lokal = a + b
+#         # @lokal = a + b
 #     end
 #     def penjumlahan
 #         @parameter_a + @parameter_b
@@ -36,7 +37,6 @@
 # end
 
 # calc = CalculatorKool.new(10,5)
-# # default variable
 # hasil_plus = calc.penjumlahan
 # puts hasil_plus
 # hasil_perkalian = calc.perkalian
@@ -136,7 +136,6 @@
 
 # mesinku = MesinPencetak.new("getter","sebentar")
 # mesinku.cetak
-
 # puts mesinku.text
 # puts mesinku.duration
 
