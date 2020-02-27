@@ -17,7 +17,7 @@ body{
 }
 .content{
     width: 100%;
-    height: calc(100vh - 100px);
+    height: auto;
     background: rgb(218, 210, 206);
     grid-area: content;
 }
@@ -34,7 +34,10 @@ body{
     border-radius: 10px;
     margin-top: 10px;
 }
-.forflex{
+.card:first-child{
+    background-color: rgb(116, 250, 6);
+}
+.cardGroup{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
